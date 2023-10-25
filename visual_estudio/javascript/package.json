@@ -1,0 +1,24 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto con el gestor de paquetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "mile00.adecco@gmail.com"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "milena",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^10.2.1"
+  },
+  "devDependencies": {
+    "redis": "^4.6.10"
+  }
+}

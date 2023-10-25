@@ -1,0 +1,19 @@
+{
+  "name": "mi_primer_proyecto",
+  "version": "1.0.0",
+  "description": "Este es mi primer package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mile00.adecco@gmail.com"
+  },
+  "author": "milena",
+  "license": "ISC",
+  "devDependencies": {
+    "npm": "^10.2.1",
+    "redis": "^4.6.10"
+  }
+}

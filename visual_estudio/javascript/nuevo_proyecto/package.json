@@ -1,0 +1,18 @@
+{
+  "name": "mi_proyecto",
+  "version": "1.0.0",
+  "description": "este es mi segundo proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mile00.adecco@gmail.com"
+  },
+  "author": "milena",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^10.2.1"
+  }
+}
