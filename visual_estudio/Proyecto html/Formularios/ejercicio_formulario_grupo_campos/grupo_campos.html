@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario grupo campo</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <form action="procesardatos.php" method="get">
+    <label for="adress">Calle:</label>
+    <input type="adress"><br>
+
+    <label for="number">Numero:</label>
+    <input type="number"><br>
+
+    <label for="piso">Piso:</label>
+    <input type="piso"><br>
+
+    <label for="adress">Puerta:</label>
+    <input type="adress"><br>
+
+    <form action="#">
+        <label for="pobl">Población:</label>
+
+        <select name="poblaciones" id="pobl">
+            <option value="barcelona">Barcelona</option>
+            <option value="girona">Girona</option>
+            <option value="tarragona">Tarragona</option>
+            <option value="lleida">Lleida</option>
+        </select><br>
+
+    </form><br>
+
+    <label for="text-area">Comentarios:</label>
+    <textarea type="text-area" width="5" height="30"></textarea><br>
+
+    <input type="submit" value="Enviar" >
+    </form> 
+
+</body>
+</html>
