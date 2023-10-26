@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selectores</title>
+	<meta charset="UTF-8">
+	<style>
+		div {
+			color: white;
+			background-color: black;
+			width: 300px;
+			margin: auto;
+			border: 1px solid black;
+		} 
+		/* selector 1 */
+	 
+	 	/* selector 2 */
+	 	
+	 	/* selector 3 */
+	 	
+	 	/* selector 4 */
+	 	
+	 	/* selector 5 */
+	 	
+	 	/* selector 6 */
+	 	
+	 	/* selector 7 */
+	 	
+	 	/* selector 8 */
+	 
+		#texto1{
+			color:blueviolet;
+			
+		}
+
+		.caja1{
+			color:blue
+		}
+
+		.caja2{
+			color:yellow
+		}
+
+		.caja3 > p { 
+			color: red;
+		}
+
+		.caja3 > .cursiva { 
+			color: cyan;
+		}
+
+
+		.caja4 > p { 
+			color: grey;
+		
+		}
+
+		.caja4 > dd> .cursiva { 
+			color: gold;
+		}
+
+
+
+		h5{
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<!-- 1 -->
+	<div>
+		<p id='texto1'>Este texto tiene que ser magenta</p>
+	</div>
+	<br>
+	<!-- 2 -->
+	<div class="caja1">
+		<p>Este texto tiene que ser blue</p>
+	</div>
+	<br>
+	<!-- 3 -->
+	<div class="caja2">
+		<p>Este texto tiene que ser yellow</p>
+	</div>
+	<br>
+	<!-- 4 -->
+	<div>
+		<h5>Este texto tiene que ser green</h5>
+	</div>
+	<br>
+	<!-- 5 -->
+	<div class="caja3">
+		<p><i class='cursiva'>Este texto tiene que ser red</i></p>
+	</div>
+	<br>
+	<!-- 6 -->
+	<div class="caja3">
+		<p class='cursiva'><i>Este texto tiene que ser cyan</i></p>
+	</div>
+	<br>
+	<!-- 7 -->
+	<div class="caja4">
+		<p><i class='cursiva'>Este texto tiene que ser grey</i></p>
+	</div>
+	<br>
+	<!-- 8 -->
+	<div class="caja4">
+		<dd><i class='cursiva'>Este texto tiene que ser gold</i></dd>
+	</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario login</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+/* fijaremos la imagen de fondo que está en el body y haremos que se repita d manera homogenea */
+        body{font-family: Arial, Helvetica, sans-serif;
+            background-image: url(img/imagen_bosque.png);
+            background-repeat: no-repeat;   
+            background-size: cover;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+   
+
+    <form action="/action_page.php" method="post">
+    
+
+    <div class="container">
+        <h2>Login Form</h2>
+        <label for="uname"><b>Usuario</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Contraseña</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Ingresar</button>
+        <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">Olvidaste contraseña</a></span>
+    </div>
+    </form>
+
+
+</body>
+</html>
